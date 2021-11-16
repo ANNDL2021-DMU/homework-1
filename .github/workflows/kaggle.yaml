@@ -13,7 +13,7 @@ jobs:
         os: [ ubuntu-latest ]
     name: Python ${{ matrix.os }}
 
-#    steps:
+    steps:
 #    - uses: actions/checkout@v2
 #    - name: Kaggle deploy from existing metadata file
 #      uses: ./
