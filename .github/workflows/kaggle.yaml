@@ -2,8 +2,8 @@ name: Push kaggle kernels
 
 on: 
   push:
-    branches:
-      - main
+    paths:
+      - notebooks/current.ipynb
 jobs:
   deploy:
     runs-on: ubuntu-latest
